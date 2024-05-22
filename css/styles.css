@@ -43,7 +43,10 @@ button {
 		line-height: 1.17;
 		letter-spacing: 0.03em;
 		text-transform: uppercase;
+		display: flex;
+
 }
+
 
 .header {
 	padding-top: 29px;
@@ -52,6 +55,12 @@ button {
 
 .header-logo {
 	color: #2e2f42;
+}
+
+
+.header-container {
+	display: flex;
+		gap: 40px;
 }
 
 .header-list-link {
@@ -67,8 +76,19 @@ button {
 color: #404bbf;
 }
 
+.header-menu-list {
+	display: flex;
+		gap: 40px;
+}
+
 .header-address {
 	font-style: normal;
+	display: flex;
+}
+
+.header-address-list {
+	display: flex;
+		gap: 40px;
 }
 
 .header-address-link {
